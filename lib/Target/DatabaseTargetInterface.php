@@ -23,6 +23,7 @@
 
 namespace FlameCore\Synchronizer\Database\Target;
 
+use FlameCore\Synchronizer\Database\Location\DatabaseLocationInterface;
 use FlameCore\Synchronizer\SynchronizerTargetInterface;
 
 /**
@@ -30,19 +31,8 @@ use FlameCore\Synchronizer\SynchronizerTargetInterface;
  *
  * @author   Christian Neff <christian.neff@gmail.com>
  */
-interface DatabaseTargetInterface extends SynchronizerTargetInterface
+interface DatabaseTargetInterface extends SynchronizerTargetInterface, DatabaseLocationInterface
 {
-    /**
-     * @return \Doctrine\DBAL\Schema\Schema
-     */
-    public function getSchema();
-
-    /**
-     * @param string $table
-     * @return array
-     */
-    public function getTableData($table);
-
     /**
      * @param array|string $sql
      * @return bool

@@ -21,16 +21,23 @@
  * @license  ISC License <http://opensource.org/licenses/ISC>
  */
 
-namespace FlameCore\Synchronizer\Database\Source;
-
-use FlameCore\Synchronizer\Database\Location\DatabaseLocationInterface;
-use FlameCore\Synchronizer\SynchronizerSourceInterface;
+namespace FlameCore\Synchronizer\Database\Location;
 
 /**
- * The DatabaseSource interface
+ * The DatabaseLocationInterface interface
  *
  * @author   Christian Neff <christian.neff@gmail.com>
  */
-interface DatabaseSourceInterface extends SynchronizerSourceInterface, DatabaseLocationInterface
+interface DatabaseLocationInterface
 {
+    /**
+     * @return \Doctrine\DBAL\Schema\Schema
+     */
+    public function getSchema();
+
+    /**
+     * @param string $table
+     * @return array
+     */
+    public function getTableData($table);
 }
