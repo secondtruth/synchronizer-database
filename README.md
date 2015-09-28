@@ -6,6 +6,9 @@ FlameCore DatabaseSynchronizer
 
 This library makes it easy to synchronize database schemas.
 
+DatabaseSynchronizer was developed as backend for the deployment and testing tool [Seabreeze](https://github.com/FlameCore/Seabreeze).
+It is using our self-developed [Synchronizer](https://github.com/FlameCore/Synchronizer) library as foundation.
+
 
 Requirements
 ------------
