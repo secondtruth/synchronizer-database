@@ -10,7 +10,7 @@
  * @package  FlameCore\Synchronizer
  * @version  0.1-dev
  * @link     http://www.flamecore.org
- * @license  ISC License <http://opensource.org/licenses/ISC>
+ * @license  http://opensource.org/licenses/ISC ISC License
  */
 
 namespace FlameCore\Synchronizer\Database\Location;
