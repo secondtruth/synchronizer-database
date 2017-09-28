@@ -1,13 +1,13 @@
 FlameCore DatabaseSynchronizer
 ==============================
 
-[![Code Climate](http://img.shields.io/codeclimate/github/FlameCore/DatabaseSynchronizer.svg)](https://codeclimate.com/github/FlameCore/DatabaseSynchronizer)
+[![Scrutinizer](http://img.shields.io/scrutinizer/g/flamecore/synchronizer-database.svg)](https://scrutinizer-ci.com/g/flamecore/synchronizer-database)
 [![License](http://img.shields.io/packagist/l/flamecore/synchronizer-database.svg)](https://packagist.org/packages/flamecore/synchronizer-database)
 
 This library makes it easy to synchronize database schemas.
 
-DatabaseSynchronizer was developed as backend for the deployment and testing tool [Seabreeze](https://github.com/FlameCore/Seabreeze).
-It is using our self-developed [Synchronizer](https://github.com/FlameCore/Synchronizer) library as foundation.
+DatabaseSynchronizer was developed as backend for the deployment and testing tool [Seabreeze](https://github.com/flamecore/seabreeze).
+It is using our self-developed [Synchronizer](https://github.com/flamecore/synchronizer) library as foundation.
 
 
 Requirements
