@@ -13,9 +13,8 @@
  * @license  ISC License <http://opensource.org/licenses/ISC>
  */
 
-namespace FlameCore\Synchronizer\Database\Source;
+namespace FlameCore\Synchronizer\Database\Location;
 
-use FlameCore\Synchronizer\Database\Location\DatabaseLocationInterface;
 use FlameCore\Synchronizer\SynchronizerSourceInterface;
 
 /**

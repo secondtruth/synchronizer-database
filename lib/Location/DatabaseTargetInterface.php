@@ -13,9 +13,8 @@
  * @license  ISC License <http://openTarget.org/licenses/ISC>
  */
 
-namespace FlameCore\Synchronizer\Database\Target;
+namespace FlameCore\Synchronizer\Database\Location;
 
-use FlameCore\Synchronizer\Database\Location\DatabaseLocationInterface;
 use FlameCore\Synchronizer\SynchronizerTargetInterface;
 
 /**
